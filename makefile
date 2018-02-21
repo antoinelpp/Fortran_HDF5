@@ -19,5 +19,5 @@ main.o: main.f90
 	           $(FF)  $(DBG) $(OPT)  $(LIB) $<  -c $(INCLUDE)
 
 clean:
-	rm -fv *.o *.mod *~ chibre.bin
+	rm -fv *.o *.mod *~ a.bin
 ##############################
